@@ -1,0 +1,72 @@
+.Presentation{
+    display: flex;
+    height: 50vh;
+    width : 100%;
+    align-items: center;
+}
+
+.headBG{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(30%);
+    position: absolute;
+}
+
+.presentation_content{
+    display: flex;
+    position: absolute;
+    width: 98.2%;
+    height: 45%;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.profil_img{
+    display: flex;
+    width: 250px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    filter: brightness(70%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.intro_txt{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    font-size: 25px;
+}
+
+.presentation_txt{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.presentation_title{
+    display: flex;
+    font-size: 35px;
+    width: 75%;
+    font-weight: 600;
+    margin-bottom: 10%;
+    justify-content: flex-start;
+}
+
+.description{
+    display: flex;
+    font-size: 20px;
+    font-style: italic;
+    width:75%;
+    justify-content: flex-end;
+    color: var(--main-color);
+}

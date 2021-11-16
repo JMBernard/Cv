@@ -1,0 +1,8 @@
+.verticalBar2{
+    border-left: 2px solid var(--main-color);
+    height: 50px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    position: absolute;
+    left: 50%;
+}
