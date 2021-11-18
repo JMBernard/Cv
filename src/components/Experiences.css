@@ -1,0 +1,76 @@
+.Experiences {
+    width: 100%;
+    height: 70vh;
+}
+
+.verticalBar3{
+    border-left: 2px solid var(--main-color);
+    height: 50px;
+    margin-top: 7.5%;
+    margin-bottom: 2%;
+    position: absolute;
+    right: 50%;
+}
+
+.experiences_content{
+    width: 100%;
+    height : 80%;
+    margin-top: 12%;
+    position: absolute;
+}
+
+.bg_experiences{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+    position: absolute;
+    background-attachment: fixed;
+}
+
+.carousel{
+    display: flex;
+    width: 90%;
+    margin: 5% ;
+}
+
+.cards{
+    margin-left: 15%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    
+    width: 20vw;
+    height: 50vh;
+    margin : 5%;
+    background-color: #CDCDCD;
+    border-radius: 10px;
+    box-shadow:0 0 15px rgba(0, 0, 0, 1);
+}
+
+.card h3 {
+    margin-top: 10%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    font-style: italic;
+}
+
+.card_list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 5%;
+    padding-top: 5%;
+    width: 80%;
+    line-height: 40px;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid var(--main-color);
+}
