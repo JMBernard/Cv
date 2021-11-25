@@ -1,0 +1,57 @@
+.Formation {
+    width: 100%;
+    margin-top: 18%;
+    margin-bottom: 2%;
+}
+
+.verticalBar4{
+    border-left: 2px solid var(--main-color);
+    height: 50px;
+    position: absolute;
+    right: 50%;
+}
+
+.formation_content{
+    width: 100%;
+    margin-top: 4%;
+    position: absolute;
+}
+
+.formation_list{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    height: auto;
+    background-color: var(--second-color);
+    border-radius: 5px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.formation_title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.formation_logo{
+    margin: 2%;
+    width: 15%;
+}
+
+.formation_ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin: 2%;
+    
+}
+
+.formation_ul li{
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    font-size: 1.4em;
+    align-items: center;
+}
