@@ -1,12 +1,12 @@
 .Presentation{
     display: flex;
-    height: 50vh;
+    height: 70vh;
     width : 100%;
     align-items: center;
 }
 
 .headBG{
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     object-fit: cover;
     filter: brightness(30%);

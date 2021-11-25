@@ -31,7 +31,7 @@ function Competences() {
                         <ul className="list">
                             <li><img src={github} alt='githubIcon' className="tech_icon"/>Github</li>
                             <li><img src={node} alt='nodeIcon' className="tech_icon"/>Node.js</li>
-                            <li className="express">Express</li>
+                            <li className="express">Express.js</li>
                             <li><img src={MySQL} alt='MySQLIcon' className="tech_icon"/>MySQL</li>
                         </ul>
                     </div>

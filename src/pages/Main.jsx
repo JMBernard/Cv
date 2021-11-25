@@ -9,7 +9,7 @@ import './Main.css'
 
 function Main() {
     return (
-        <div>
+        <div className="Main">
             <Presentation />
             <APropos />
             <Competences />
