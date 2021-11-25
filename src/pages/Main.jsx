@@ -6,6 +6,7 @@ import Competences from '../components/Competences';
 import Experiences from '../components/Experiences';
 import Formation from '../components/Formation';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 import './Main.css'
 
@@ -18,6 +19,7 @@ function Main() {
             <Experiences />
             <Formation />
             <Contact />
+            <Footer />
         </div>
     )
 }
