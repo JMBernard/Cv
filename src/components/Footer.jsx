@@ -10,13 +10,13 @@ function Footer() {
     return (
         <div className="Footer">
             <div className="footer_socials">
-                <a className="social_icons" href="https://www.linkedin.com/in/jean-marie-bernard/" target="_blank">
+                <a className="social_icons" href="https://www.linkedin.com/in/jean-marie-bernard/" target="_blank" rel="noreferrer">
                     <BsLinkedin />
                 </a>
-                <a className="social_icons" href="https://github.com/JMBernard" target="_blank">
+                <a className="social_icons" href="https://github.com/JMBernard" target="_blank" rel="noreferrer">
                     <FaGithub />
                 </a>
-                <a className="social_icons" href={CV} target="_blank">
+                <a className="social_icons" href={CV} target="_blank" rel="noreferrer">
                     <BsPrinter/>
                 </a>
             </div>
