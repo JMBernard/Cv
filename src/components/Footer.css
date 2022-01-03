@@ -23,7 +23,7 @@
 
 .footer_txt{
     display: flex;
-    margin-top: 1%;
+    margin-top: 2%;
     justify-content: center;
     text-align: center;
     color: var(--third-color);

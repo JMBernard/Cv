@@ -21,7 +21,7 @@ function Footer() {
                 </a>
             </div>
             <div className="footer_txt">
-                <p>Jean-Marie BERNARD © 2021 <br/> Tout droit réservés</p>
+                <p>Jean-Marie BERNARD © 2021</p>
             </div>
         </div>
     )
